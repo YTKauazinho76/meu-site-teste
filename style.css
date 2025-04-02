@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/SPOILER_giphy.gif'); /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 100vh; /* Garante que o fundo cubra toda a tela */
+}
+
+header {
+    background-color: #050505;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+section {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fcfbfb;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.social-links a:hover {
+    background-color: #acacac;
+}
